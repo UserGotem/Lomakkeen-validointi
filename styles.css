@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+
+body {
+    background-color: #f8fafc;
+}
+
+form {
+    background-color: rgb(144, 196, 255);
+    box-shadow: 0 4px 6px #00000075;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    width: 70vw;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+label {
+    display: inline-block;
+    margin: 7.5px;
+    color: #0f0a13d5;
+}
+
+input[type="radio"] {
+    margin-right: -3.8px;
+}
+
+input[type="checkbox"] {
+    margin-right: -4px;
+}
+
+button#lähetä {
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #6213ca;
+    margin-top: 15px;
+    color: #fff;
+    display: inline-block;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #007BFF;
+}
+
+textarea {
+        width: auto;
+    }
